@@ -1,0 +1,296 @@
+
+@media screen and (min-width: 1000px) {
+    .nav-item {
+        padding: 0 20px;
+        border-radius: 10%;
+    }
+    
+    .nav-item:active {
+        background: whitesmoke;
+    }
+    
+    .nav-item:hover {
+        background: whitesmoke;
+        border-radius: 10%;
+    }
+}
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 1.9rem;
+    color: #363636;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #111111;
+    word-spacing: 20px;
+    letter-spacing:2px;
+}
+
+p {
+    margin-bottom: 26px;
+    font-size:16.5px;
+    word-spacing: 10px;
+    letter-spacing:1px;
+    line-height:31px;
+}
+
+.mt-xxl {
+    height: 6px;
+    background-image: url(../assets/img/divider.svg);
+    background-repeat: repeat-x;
+    background-position: left center;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+    border-left: none;
+}
+
+.navbar{
+    border-bottom: 1.5px solid rgb(224, 224, 224);
+}
+
+.fh1 .title-xxl{
+    font-size: 50px;
+    line-height: 5.202rem;
+    margin:70px 0;
+}
+
+.contain,
+.contain-fluid,
+.contain-sm,
+.contain-md,
+.contain-lg,
+.contain-xl {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+ .contain .link1{
+  color: #363636;
+  text-decoration: none;
+  border-bottom:3px solid rgb(202, 195, 195);
+}
+
+/*
+
+
+/* mouse over link */
+.contain .link1:hover {
+  color:rgb(73, 73, 175);
+}
+
+.contain .link2{
+  color: #363636;
+  text-decoration: none;
+  border-bottom:3px solid rgb(202, 195, 195);
+}
+
+/* mouse over link */
+.contain .link2:hover {
+  color:rgb(73, 73, 175);
+}
+
+.contain .link3{
+  color: #363636;
+  text-decoration: none;
+  border-bottom:3px solid rgb(202, 195, 195); ;
+}
+
+
+/* mouse over link */
+.contain .link3:hover {
+  color:rgb(73, 73, 175);
+}
+
+.contain .link4{
+  color: #363636;
+  position: relative;
+  left:18em;
+  bottom:40px;
+  border:1px solid gainsboro;
+  border-radius: 25px;
+  padding-left:30px;
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-right:30px;
+  font-weight: 500;
+  text-decoration:2px whitesmoke;
+  font-size: 15px;
+  background-color:ghostwhite;
+}
+
+/* unvisited link */
+ .contain .link4:link {
+  color: #363636;
+  
+}
+
+
+/* unvisited link */
+.contain .link4:hover {
+  background-color: whitesmoke;
+}
+
+
+
+
+@media screen and (min-width: 576px) {
+  .contain, .contain-sm {
+    max-width: 540px;
+  }
+ 
+}
+
+@media (min-width: 768px) {
+  .contain, .contain-sm, .contain-md {
+    max-width: 720px;
+  }
+  
+}
+
+@media (min-width: 992px) {
+  .contain, .contain-sm, .contain-md, .contain-lg {
+    max-width: 960px;
+  }
+
+}
+
+@media (min-width: 1200px) {
+  .contain, .contain-sm, .contain-md, .contain-lg, .contain-xl {
+    max-width: 880px;
+  }
+}
+
+
+ 
+
+.align{
+  margin-top:80px;
+}
+
+.align ul{
+  list-style-type: none;
+  display:flex;
+  flex-direction: row;
+  
+  
+  
+}
+
+.align ul li i{
+  padding:20px;
+  font-size:23px;
+  color:rgb(97, 96, 96);
+}
+
+.align i:hover {
+  background: whitesmoke;
+  border-radius: 15%;
+}
+
+
+.align  button .link{
+  position:relative;
+  right:500px;
+}
+
+.firstMargin{
+  margin-top:5.5rem;
+}
+.firstMargin h3{
+ font-size:25px;
+ 
+}
+.firstMargin p{
+ font-size:15px;
+}
+
+.firstDiv{
+  padding-right:170px;
+  border:1px solid gainsboro;
+  border-radius: 10px;
+  background-color: ghostwhite;
+  margin-top:40px;
+}
+
+.firstDiv .h1{
+  font-size: 15px;
+  position:relative;
+  left:150px;
+  bottom:50px;
+}
+.firstDiv  .p1{
+  font-size: 14px;
+  color: #363636;
+  position:relative;
+  left:150px;
+  bottom:50px;
+}
+
+.img1{
+  width:70px;
+  height: 80px;
+  border-bottom-left-radius: 30px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  position: relative;
+  top:30px;
+  left:30px;
+}
+
+.img2{
+  width:70px;
+  height: 80px;
+  border-bottom-left-radius: 30px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  position: relative;
+  top:30px;
+  left:36px;
+}
+
+.firstDiv:hover{
+  background-color: whitesmoke;
+}
+
+.secondDiv{
+  padding-right:170px;
+  border:1px solid rgb(220, 220, 220);
+  border-radius: 10px;
+  margin-bottom:100px;
+  background-color: ghostwhite;
+}
+
+.secondDiv .h2{
+  font-size: 15px;
+  position:relative;
+  left:150px;
+  bottom:50px;
+}
+.secondDiv  .p2{
+  font-size: 14px;
+  color: #363636;
+  position:relative;
+  left:150px;
+  bottom:50px;
+}
+
+.secondDiv:hover{
+  background-color: whitesmoke;
+}
+
+ 

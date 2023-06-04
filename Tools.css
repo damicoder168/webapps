@@ -1,0 +1,163 @@
+@media screen and (min-width: 1000px) {
+    .nav-item {
+        padding: 0 20px;
+        border-radius: 10%;
+    }
+    
+    .nav-item:active {
+        background: whitesmoke;
+    }
+    
+    .nav-item:hover {
+        background: whitesmoke;
+        border-radius: 10%;
+    }
+}
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 1.9rem;
+    color: #363636;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #111111;
+    word-spacing: 20px;
+    letter-spacing:2px;
+}
+
+p {
+    margin-bottom: 26px;
+    font-size:16.5px;
+    word-spacing: 10px;
+    letter-spacing:1px;
+    line-height:31px;
+}
+
+.mt-xxl {
+    height: 6px;
+    background-image: url(../assets/img/divider.svg);
+    background-repeat: repeat-x;
+    background-position: left center;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+    border-left: none;
+}
+
+.navbar{
+    border-bottom: 1.5px solid rgb(224, 224, 224);
+}
+
+.fh1 .title-xxl{
+    font-size: 50px;
+    line-height: 5.202rem;
+    margin:70px 0;
+}
+
+.contain,
+.contain-fluid,
+.contain-sm,
+.contain-md,
+.contain-lg,
+.contain-xl {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+@media (min-width: 576px) {
+    .contain, .contain-sm{
+      max-width: 640px;
+    }
+    img{
+       display: none;
+
+
+    }
+  
+  }
+  
+  @media (min-width: 768px) {
+    .contain, .contain-sm, .contain-md {
+      max-width: 720px;
+    }
+    
+
+  }
+  
+  @media (min-width: 992px) {
+    .contain, .contain-sm, .contain-md, .contain-lg {
+      max-width: 960px;
+    }
+   
+  }
+  
+  @media (min-width: 1200px) {
+    .contain, .contain-sm, .contain-md, .contain-lg, .contain-xl {
+      max-width: 880px;
+    }
+    img{
+      display:block;
+
+   }
+  }
+  .mainContent{
+      margin-top:50px;
+      
+  }
+  .mainContent h1{
+      font-weight:500;
+  }
+  .mainContent h2{
+    font-weight:500;
+}
+
+.maxContent{
+    display:flex;
+    flex-direction: row;
+    margin:5px;
+
+}
+
+.maxContent h6:hover{
+   color:blueviolet;
+}
+.Head-3{
+  position:relative;
+  left:23px;
+}
+
+img{
+ width:100px;
+ height:70px;
+ position:relative;
+ left:55px;
+ top:30px;
+ border-radius: 12px;
+}
+
+
+
+.card-header{
+  background: whitesmoke;
+}
+
+.card-body h6{
+     font-size:15px;
+}
+.card-body p{
+   color:rgb(129, 126, 126);
+   font-size: 13px;
+}
